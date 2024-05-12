@@ -10,8 +10,11 @@ Ideal para personas sin conocimiento previo y quieran tener una base para inicia
 </h5>
 
 <b>EJERCICIOS </b>
-::::                 ::::
-  Menu de Sandwitcheria  #Editar link adjunto..
+
+
+<p>
+ <br><b><a href="https://github.com/devroacl/Pythonbegginners/blob/main/menuSandwicheria.md" title="Problema propuesto">Menu de Sandwitcheria</a></b><br>
 ::::(Uso de Ciclos While,contadores y acumuladores)::::
+  <a href="https://github.com/devroacl/Pythonbegginners/blob/main/menusandwicheria.py" title="Solucion">Solucion</a></p>
 
 
