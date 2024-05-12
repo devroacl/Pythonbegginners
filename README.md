@@ -11,17 +11,44 @@ Ideal para personas sin conocimiento previo y quieran tener una base para inicia
 
 <b>EJERCICIOS </b>
 
+<h3>Guia practicar ciclos con menus</h3>
 
 <p>
  <br><b><a href="https://github.com/devroacl/Pythonbegginners/blob/main/menuSandwicheria.md" title="Problema propuesto">Menu de Sandwitcheria</a></b><br>
 ::::(Uso de Ciclos While,contadores y acumuladores)::::
   <a href="https://github.com/devroacl/Pythonbegginners/blob/main/menusandwicheria.py" title="Solucion">Solucion</a></p>
 
+
+
+<h4>Guia ejercicios extra para practicar excepciones</h4>
+
 <p>
  <br><b><a href="https://github.com/devroacl/Pythonbegginners/blob/main/cotizacionbodeg.md" title="Problema propuesto">Cotizacion de bodegas</a></b><br>
 ::::(Uso de Ciclos While, flag (true o false) y excepciones (try y except))::::
-  <a href="https://github.com/devroacl/Pythonbegginners/blob/main/cotizacionbodeg_01.py" title="Solucion">Solucion</a>
-  <a href="https://github.com/devroacl/Pythonbegginners/blob/main/cotizacionbodeg_02.py" title="Solucion2">Solucion</a>
+  <a href="https://github.com/devroacl/Pythonbegginners/blob/main/cotizacionbodeg_01.py" title="Solucion">Solucion1</a>
+  <a href="https://github.com/devroacl/Pythonbegginners/blob/main/cotizacionbodeg_02.py" title="Solucion2">Solucion2</a>
 </p>
+
+<p>
+ <br><b><a href="https://" title="Problema propuesto">Calcular puntaje real con descuento de respuestas malas</a></b><br>
+::::(Uso de))::::
+  <a href="https://" title="Solucion">Solucion1</a>
+</p>
+
+<p>
+ <br><b><a href="https://" title="Problema propuesto">Calcular puntaje real con descuento de respuestas malas</a></b><br>
+::::(Uso de))::::
+  <a href="https://" title="Solucion">Solucion1</a>
+</p>
+
+<p>
+ <br><b><a href="https://" title="Problema propuesto">Calcular compra de wafle </a></b><br>
+::::(Uso de acumuladores,contadores y excepciones))::::
+  <a href="https://" title="Solucion">Solucion1</a>
+</p>
+
+
+
+
 
 
