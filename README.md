@@ -17,4 +17,11 @@ Ideal para personas sin conocimiento previo y quieran tener una base para inicia
 ::::(Uso de Ciclos While,contadores y acumuladores)::::
   <a href="https://github.com/devroacl/Pythonbegginners/blob/main/menusandwicheria.py" title="Solucion">Solucion</a></p>
 
+<p>
+ <br><b><a href="https://github.com/devroacl/Pythonbegginners/blob/main/cotizacionbodeg.md" title="Problema propuesto">Cotizacion de bodegas</a></b><br>
+::::(Uso de Ciclos While, flag (true o false) y excepciones (try y except))::::
+  <a href="https://github.com/devroacl/Pythonbegginners/blob/main/cotizacionbodeg_01.py" title="Solucion">Solucion</a>
+  <a href="https://github.com/devroacl/Pythonbegginners/blob/main/cotizacionbodeg_02.py" title="Solucion2">Solucion</a>
+</p>
+
 
