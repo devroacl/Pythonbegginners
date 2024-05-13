@@ -29,25 +29,21 @@ Ideal para personas sin conocimiento previo y quieran tener una base para inicia
   <a href="https://github.com/devroacl/Pythonbegginners/blob/main/cotizacionbodeg_02.py" title="Solucion2">Solucion2</a>
 </p>
 
-<p>
- <br><b><a href="https://" title="Problema propuesto">Calcular puntaje real con descuento de respuestas malas</a></b><br>
-::::(Uso de))::::
-  <a href="https://" title="Solucion">Solucion1</a>
-</p>
+
 
 <p>
- <br><b><a href="https://" title="Problema propuesto">Calcular puntaje real con descuento de respuestas malas</a></b><br>
-::::(Uso de))::::
-  <a href="https://" title="Solucion">Solucion1</a>
-</p>
-
-<p>
- <br><b><a href="https://" title="Problema propuesto">Calcular compra de wafle </a></b><br>
+ <br><b><a href=" https://github.com/devroacl/Pythonbegginners/blob/main/ptje_final_descuentoresp.md" title="Problema propuesto">Calcular puntaje real con descuento de respuestas mala </a></b><br>
 ::::(Uso de acumuladores,contadores y excepciones))::::
-  <a href="https://" title="Solucion">Solucion1</a>
+   <a href="https://github.com/devroacl/Pythonbegginners/blob/main/ptje_final_descuentoresp_for.py" title="Solucion con For">Solucion1</a>
+  <a href="https://github.com/devroacl/Pythonbegginners/blob/main/ptje_final_descuentoresp.py" title="Solucion con While">Solucion1</a>
 </p>
 
 
+<p>
+ <br><b><a href="" title="Problema propuesto">s</a></b><br>
+::::(Uso de))::::
+  <a href="" title="Solucion">Solucion1</a>
+</p>
 
 
 
