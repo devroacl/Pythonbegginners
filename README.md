@@ -32,7 +32,7 @@ Ideal para personas sin conocimiento previo y quieran tener una base para inicia
 
 
 <p>
- <br><b><a href=" https://github.com/devroacl/Pythonbegginners/blob/main/ptje_final_descuentoresp.md" title="Problema propuesto">Calcular puntaje real con descuento de respuestas mala </a></b><br>
+ <br><b><a href=" https://github.com/devroacl/Pythonbegginners/blob/main/ptje_final_descuentoresp.md" title="Problema propuesto">Calcular puntaje real con descuento de respuestas malas</a></b><br>
 ::::(Uso de acumuladores,contadores y excepciones))::::
    <a href="https://github.com/devroacl/Pythonbegginners/blob/main/ptje_final_descuentoresp_for.py" title="Solucion con For">Solucion1</a>
   <a href="https://github.com/devroacl/Pythonbegginners/blob/main/ptje_final_descuentoresp.py" title="Solucion con While">Solucion1</a>
@@ -40,9 +40,9 @@ Ideal para personas sin conocimiento previo y quieran tener una base para inicia
 
 
 <p>
- <br><b><a href="" title="Problema propuesto">s</a></b><br>
+ <br><b><a href="https://github.com/devroacl/Pythonbegginners/blob/main/wafles.md" title="Problema propuesto">Wafles</a></b><br>
 ::::(Uso de))::::
-  <a href="" title="Solucion">Solucion1</a>
+  <a href="https://github.com/devroacl/Pythonbegginners/blob/main/wafles.py" title="Solucion">Solucion1</a>
 </p>
 
 
