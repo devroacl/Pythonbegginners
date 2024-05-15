@@ -1,89 +1,76 @@
 #Escribiendo la solucion
+precio_helado = 1000
+precio_topin = 50
+precio_servicio_s = 200
 
-#precios_sabores
-precio_vainilla = 150
-precio_chocolate = 100
-precio_fresa = 160
+# Pedir al usuario que elija el sabor del waffle
+print("Bienvenido. Por favor, elija el sabor de su waffle:")
+print("1. Chocolate")
+print("2. Vainilla")
+print("3. Fresa")
 
-#precios_topins
-precio_choco_rallado = 20
-precio_frutas = 30
-precio_crema_batida = 25
+sabor = input("Ingrese el número correspondiente al sabor deseado: ")
+while sabor not in ["1", "2", "3"]:
+    print("Por favor, seleccione una opción válida.")
+    sabor = input("Ingrese el número correspondiente al sabor deseado: ")
 
-
-# Solicitar sabor
-sabor_valido = False
-while not sabor_valido:
-    print("Elige el sabor de helado (vainilla, chocolate, fresa):")
-    sabor = input().lower()
-    if sabor in ["vainilla", "chocolate", "fresa"]:
-        sabor_valido = True
-    else:
-        print("Sabor inválido. Por favor, elige uno de los sabores disponibles.")
-
-# Solicitar topins y calcular precio total de topins
-precio_topins = 0
-continuar_agregando_topins = True
-while continuar_agregando_topins:
-    print("¿Deseas agregar topins? (s/n):")
-    respuesta = input().lower()
-    if respuesta == "s":
-        topin_valido = False
-        while not topin_valido:
-            print("Ingresa el topin:")
-            topin = input().lower()
-            if topin in ["chocolate rallado", "frutas", "crema batida"]:
-                precio_topins += eval("precio_" + topin.replace(" ", "_"))
-                topin_valido = True
-            else:
-                print("Topin inválido. Por favor, ingresa uno de los topins disponibles.")
-    elif respuesta == "n":
-        continuar_agregando_topins = False
-    else:
-        print("Respuesta inválida. Por favor, ingresa 's' o 'n'.")
-
-# Calcular precio base
-if sabor == "vainilla":
-    precio_base = precio_vainilla
-elif sabor == "chocolate":
-    precio_base = precio_chocolate
+if sabor == "1":
+    sabor_elegido = "Chocolate"
+elif sabor == "2":
+    sabor_elegido = "Vainilla"
 else:
-    precio_base = precio_fresa
+    sabor_elegido = "Fresa"
 
-# Calcular precio total
-precio_total = precio_base + precio_topins
+# Pedir al usuario que agregue topings
+print("¿Desea agregar topings?")
+print("1. Sí")
+print("2. No")
 
-# Solicitar servicio
-servicio_valido = False
-while not servicio_valido:
-    print("¿Para servir o para llevar? (servir/llevar):")
-    servicio = input().lower()
-    if servicio in ["servir", "llevar"]:
-        servicio_valido = True
-    else:
-        print("Servicio inválido. Por favor, ingresa 'servir' o 'llevar'.")
+respuesta_topin = input("Ingrese el número correspondiente a su elección: ")
+while respuesta_topin not in ["1", "2"]:
+    print("Por favor, seleccione una opción válida.")
+    respuesta_topin = input("Ingrese el número correspondiente a su elección: ")
 
-# Aplicar descuento si es para servir
-if servicio == "servir":
-    precio_total -= 200
+if respuesta_topin == "1":
+    cantidad_topin = int(input("Por favor, indique cuántos topings desea agregar: "))
+    total_topin = cantidad_topin * precio_topin
+else:
+    cantidad_topin = 0
+    total_topin = 0
 
-# Mostrar total a pagar
-print("El total a pagar es: $" + str(precio_total))
+# Pedir al usuario que elija el tipo de servicio
+print("¿Desea el waffle para servir o para llevar?")
+print("1. Servir")
+print("2. Llevar")
 
-# Solicitar pago
-pago_suficiente = False
-while not pago_suficiente:
-    try:
-        print("Ingrese el monto a pagar:")
-        pago = float(input())
-        if pago >= precio_total:
-            pago_suficiente = True
-        else:
-            print("Pago insuficiente. Por favor, ingrese al menos $" + str(precio_total) + ".")
-    except ValueError:
-        print("Cantidad inválida. Por favor, ingrese un número válido.")
+tipo_servicio = input("Ingrese el número correspondiente a su elección: ")
+while tipo_servicio not in ["1", "2"]:
+    print("Por favor, seleccione una opción válida.")
+    tipo_servicio = input("Ingrese el número correspondiente a su elección: ")
 
-# Calcular y mostrar vuelto
-vuelto = pago - precio_total
-if vuelto > 0:
-    print("Su vuelto es de: $" + str(vuelto))
+if tipo_servicio == "1":
+    tipo_servicio_elegido = "Servir"
+    total_servicio = precio_servicio_s
+else:
+    tipo_servicio_elegido = "Llevar"
+    total_servicio = 0
+
+# Calcular el total a pagar
+total_a_pagar = precio_helado + total_topin + total_servicio
+
+# Mostrar el total a pagar
+print("\nResumen de su orden:")
+print(f"Sabor elegido: {sabor_elegido}")
+print(f"Cantidad de topings: {cantidad_topin}")
+print(f"Tipo de servicio: {tipo_servicio_elegido}")
+print(f"Total a pagar: ${total_a_pagar}")
+
+# Solicitar el pago
+pago = int(input("\nPor favor, ingrese el monto a pagar: "))
+
+# Calcular el vuelto y mostrarlo
+vuelto = pago - total_a_pagar
+print(f"Su vuelto es: ${vuelto}")
+
+
+
