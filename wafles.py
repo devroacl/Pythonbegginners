@@ -10,7 +10,7 @@ print("2. Vainilla")
 print("3. Fresa")
 
 sabor = input("Ingrese el número correspondiente al sabor deseado: ")
-while sabor not in ["1", "2", "3"]:
+while sabor!=1 or sabor!=2 or sabor!=3:
     print("Por favor, seleccione una opción válida.")
     sabor = input("Ingrese el número correspondiente al sabor deseado: ")
 
@@ -27,7 +27,7 @@ print("1. Sí")
 print("2. No")
 
 respuesta_topin = input("Ingrese el número correspondiente a su elección: ")
-while respuesta_topin not in ["1", "2"]:
+while respuesta_topin!=1 or respuest_topin!=2:
     print("Por favor, seleccione una opción válida.")
     respuesta_topin = input("Ingrese el número correspondiente a su elección: ")
 
@@ -44,7 +44,7 @@ print("1. Servir")
 print("2. Llevar")
 
 tipo_servicio = input("Ingrese el número correspondiente a su elección: ")
-while tipo_servicio not in ["1", "2"]:
+while tipo_servicio!=1 or tipo_servicio!=2:
     print("Por favor, seleccione una opción válida.")
     tipo_servicio = input("Ingrese el número correspondiente a su elección: ")
 
