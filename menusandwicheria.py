@@ -4,7 +4,7 @@ contChoripan=contItaliano=contVegano=0
 contGralChoripan=contGralItaliano=contGralVegano=0
 while opcPpal != 'c':
     print("""
-       Sandwichería El Duocano
+       Sandwichería
     =============================
     a) Realizar Venta
     b) Cerrar Turno
@@ -18,9 +18,9 @@ while opcPpal != 'c':
                     print("""
                         Sandwich disponibles:
                     =============================
-                    1.- DuocChoripan $1200
-                    2.- DuocItaliano $1500
-                    3.- DuocVegano $2000
+                    1.- Choripan $1200
+                    2.- Italiano $1500
+                    3.- Vegano $2000
                     4.- Salir """) 
                     opcVtas=0
                     while opcVtas<1 or opcVtas>4:
@@ -39,13 +39,13 @@ while opcPpal != 'c':
                     else:
                         if contChoripan != 0:
                             contGralChoripan+=contChoripan
-                            print(f'DuocChoripan {contChoripan} X $1200.....${contChoripan*1200}')
+                            print(f'Choripan {contChoripan} X $1200.....${contChoripan*1200}')
                         if contItaliano != 0:
                             contGralItaliano+=contItaliano
-                            print(f'DuocItaliano {contItaliano} X $1500.....${contItaliano*1500}')
+                            print(f'Italiano {contItaliano} X $1500.....${contItaliano*1500}')
                         if contVegano != 0:
                             contGralVegano+=contVegano
-                            print(f'DuocVegano {contVegano} X $2000.....${contVegano*2000}')
+                            print(f'Vegano {contVegano} X $2000.....${contVegano*2000}')
                         subTotal= (contChoripan*1200) + (contItaliano*1500) + (contVegano*2000)
                         print(f'Total de su cuenta: ${subTotal}')
                         totalRecaudado+=subTotal                      
@@ -53,9 +53,9 @@ while opcPpal != 'c':
             elif opcPpal == 'b':
                 print('Resúmen Venta Diaria')
                 print('='*55)
-                print(f'\tCant. de DuocChoripan: {contGralChoripan}')
-                print(f'\tCant. de DuocItaliano: {contGralItaliano}')
-                print(f'\tCant. de DuocVegano: {contGralVegano}')
+                print(f'\tCant. de Choripan: {contGralChoripan}')
+                print(f'\tCant. de Italiano: {contGralItaliano}')
+                print(f'\tCant. de Vegano: {contGralVegano}')
                 print('='*55)
                 print(f'Total Recaudado en Caja: ${totalRecaudado}')
                 print('='*55)
